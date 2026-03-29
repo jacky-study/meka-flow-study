@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "2.0",
+  "managedBy": {
+    "skill": "repo-study",
+    "createdBySkill": true,
+    "createdAt": "2026-03-29T18:00:00+08:00"
+  },
+  "repo": {
+    "name": "meka-flow",
+    "url": "git@github.com:osvald-go2/meka-flow.git",
+    "githubUrl": "https://github.com/osvald-go2/meka-flow",
+    "owner": "osvald-go2",
+    "branch": "main",
+    "commitSha": "d547392817fea30189104a2e0740350d9f3b78b9"
+  },
+  "topics": []
+}
