@@ -13,5 +13,46 @@
     "branch": "main",
     "commitSha": "d547392817fea30189104a2e0740350d9f3b78b9"
   },
-  "topics": []
+  "topics": [
+    {
+      "name": "整体架构深度分析",
+      "description": "全面分析 Electron + React + Rust sidecar 的架构设计",
+      "questions": ["Meka Flow 的整体架构是如何设计的？"],
+      "artifacts": ["notes/architecture-deep-analysis.md"],
+      "progress": { "questions": 1, "notes": 1, "guides": 0, "skillTemplates": 0, "runnableSkills": 0 },
+      "state": "active"
+    },
+    {
+      "name": "AI CLI 集成细节",
+      "description": "Claude/Codex CLI 的 spawn、stdin/stdout 通信、流解析、中断恢复",
+      "questions": ["Claude 和 Codex CLI 是如何被集成和管理的？"],
+      "artifacts": ["notes/ai-cli-integration.md"],
+      "progress": { "questions": 1, "notes": 1, "guides": 0, "skillTemplates": 0, "runnableSkills": 0 },
+      "state": "active"
+    },
+    {
+      "name": "Harness 多 Agent 编排",
+      "description": "Planner → Generator → Evaluator 闭环、角色分配、重试机制、文件产物",
+      "questions": ["Harness 多 Agent 编排系统的完整实现是什么？"],
+      "artifacts": ["notes/harness-multi-agent-orchestration.md"],
+      "progress": { "questions": 1, "notes": 1, "guides": 0, "skillTemplates": 0, "runnableSkills": 0 },
+      "state": "active"
+    },
+    {
+      "name": "无限画布与视图系统",
+      "description": "Canvas 拖拽/缩放、三种视图模式、SessionWindow 组件、动画效果",
+      "questions": ["无限画布和三种视图模式的实现原理是什么？"],
+      "artifacts": ["notes/canvas-and-views.md"],
+      "progress": { "questions": 1, "notes": 1, "guides": 0, "skillTemplates": 0, "runnableSkills": 0 },
+      "state": "active"
+    },
+    {
+      "name": "Git 集成与 Worktree",
+      "description": "Git 文件监控、Worktree 管理与 AI 会话绑定、Changes/Diff 面板",
+      "questions": ["Git 集成和 Worktree 管理的完整实现是什么？"],
+      "artifacts": ["notes/git-integration-and-worktree.md"],
+      "progress": { "questions": 1, "notes": 1, "guides": 0, "skillTemplates": 0, "runnableSkills": 0 },
+      "state": "active"
+    }
+  ]
 }
